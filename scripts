@@ -1,0 +1,9 @@
+# chromedinocheat
+
+Tweaking speed - Runner.instance_.setSpeed(1000)
+Godmode :
+Step 1 - var original = Runner.prototype.gameOver
+Step 2 - Runner.prototype.gameOver = function(){}
+Set points - Runner.instance_.distanceRan = 12345 / Runner.instance_.distanceMeter.config.COEFFICIENT
+Gravity - Runner.instance_.tRex.setJumpVelocity(10)
+
